@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Password Strength</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Password Strength Checker</h2>
+        <div class="box" id="box">
+            <input type="password" placeholder="Enter Password" class="inputs" id="inputs">
+            <img src="Images/Login.png" id="icon" alt="">
+        </div>
+        <small id="message">Your Password is Weak</small>
+    </div>
+</body>
+<script>
+    var message = document.getElementById('message')
+    var icon = document.getElementById('icon')
+    var box = document.getElementById('box')
+    var inputField = document.getElementById('inputs');
+    inputField.addEventListener('input', () =>{
+        if(inputField.value.length>0 && inputField.value.length<4){
+            icon.src = "Images/Error.png"
+            box.style.borderColor = "#f32013"
+            message.innerHTML = "Your Password is weak"
+            message.style.color = "#f32013"
+            message.style.display = "block"
+            // alert("Weak Pass")
+        }else if(inputField.value.length>=4 && inputField.value.length<8){
+            icon.src = "Images/Login.png"
+            box.style.borderColor = "yellow"
+            message.innerHTML = "Your Password is Medium Secure"
+            message.style.color = "Yellow"
+            message.style.display = "block"
+        }
+        else if(inputField.value.length>=7){
+            icon.src = "Images/Checked.png"
+            box.style.borderColor = "#5cb85c"
+            message.innerHTML = "Your Password is Strong"
+            message.style.color = "#5cb85c"
+            message.style.display = "block"
+        }
+        else{
+            icon.src = "Images/Login.png"
+            box.style.borderColor = "#fff"
+            message.style.display = "none"
+        }
+        // alert("Inputing")
+    })
+</script>
+</html>
