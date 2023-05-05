@@ -1,6 +1,5 @@
 # Check-Password-Strength!
-
-[bandicam 2023-05-05 20-04-28-839](https://user-images.githubusercontent.com/98160096/236524120-a0662209-f3c7-400e-a730-9cfa168c6bbd.jpg)
-![bandicam 2023-05-05 20-04-34-233](https://user-images.githubusercontent.com/98160096/236524130-14935165-1871-49b9-9df3-cc7d37935e04.jpg)
-![bandicam 2023-05-05 20-04-39-269](https://user-images.githubusercontent.com/98160096/236524136-d809f359-c6a2-49c8-9b86-79964ad230ab.jpg)
-![bandicam 2023-05-05 20-04-43-959](https://user-images.githubusercontent.com/98160096/236524145-0fafdd29-99f5-4089-8d28-5a2a695e1129.jpg)
+![bandicam 2023-05-05 20-04-28-839](https://user-images.githubusercontent.com/98160096/236524526-51601c97-0ad1-496c-996b-6603f7e27c56.jpg)
+![bandicam 2023-05-05 20-04-34-233](https://user-images.githubusercontent.com/98160096/236524538-c4b2cb40-7758-465f-9e6d-834640edc36e.jpg)
+![bandicam 2023-05-05 20-04-39-269](https://user-images.githubusercontent.com/98160096/236524542-f4c0f957-2dc7-4f2b-ba79-a900ae1d115c.jpg)
+![bandicam 2023-05-05 20-04-43-959](https://user-images.githubusercontent.com/98160096/236524551-055d2e2b-fc8c-47df-8bda-63d5a34ea501.jpg)
